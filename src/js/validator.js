@@ -1,3 +1,5 @@
+/* eslint-disable no-useless-escape */
+
 export default class Validator {
   static validateUserName(name) {
     if (name.match(/^([a-z0-9_\-]+)$/gi) === null) {
